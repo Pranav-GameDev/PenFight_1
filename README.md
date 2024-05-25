@@ -40,7 +40,7 @@ Pen Fight Simulator is a 2-player game where both players can play on the same p
 
 ## 🚀 Installation
 
-1. **Download**: [Link to download] (Not available yet)
+1. **Download**: (Not available yet)
 2. **Run**: Execute the installer and follow the instructions.
 3. **Play**: Open the game and start playing!
 
