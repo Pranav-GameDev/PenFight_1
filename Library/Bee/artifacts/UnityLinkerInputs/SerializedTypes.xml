@@ -1,0 +1,5 @@
+<linker>
+	<assembly fullname="Ludiq.Core.Runtime">
+		<type fullname="Ludiq.SerializationData" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

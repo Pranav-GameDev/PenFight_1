@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857296808172",
+    "project_id": "pen-fight1",
+    "storage_bucket": "pen-fight1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857296808172:android:81a85b1101cdd3582e9dc9",
+        "android_client_info": {
+          "package_name": "com.pranavdev.penfight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR8vFoibfwdGLh8M8kgv3FTbc8y0twMzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

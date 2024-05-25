@@ -1,0 +1,9 @@
+com.pranavdev.penfight.launcher-pngs-0 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.pranavdev.penfight.launcher-resValues-1 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.pranavdev.penfight.launcher-rs-2 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.pranavdev.penfight.launcher-mergeReleaseResources-3 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.pranavdev.penfight.launcher-mergeReleaseResources-4 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.pranavdev.penfight.launcher-merged_res-5 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.pranavdev.penfight.launcher-main-6 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.pranavdev.penfight.launcher-release-7 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.pranavdev.penfight.launcher-packaged_res-8 C:\Users\Pranav_\Documents\Unity Projects\Pen_Fight_!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release

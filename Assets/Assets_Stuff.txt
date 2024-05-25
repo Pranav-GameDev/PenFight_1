@@ -1,0 +1,142 @@
+
+
+
+Mouse Movement with Disable Turn, MM both player, then animation, then enable Turn ONLY!.
+
+using UnityEngine;
+
+public class CameraMovement : MonoBehaviour
+{
+    public float targetX;
+    public float targetY;
+    public float targetZ;
+
+    public float targetRotationX;
+    public float targetRotationY;
+    public float targetRotationZ;
+
+    public float animationDuration = 2f;
+    public float delayBeforeAnimation = 1f;
+
+    private bool isAnimating = false;
+
+    // Reference to the CameraFollow script
+    private camerafollow cameraFollowScript;
+
+    // References to the MouseMovement scripts on other game objects
+    public MouseMovement mouseMovementScript1;
+    public MouseMovement mouseMovementScript2;
+
+    // Reference to the TurnManager script on another game object
+    public TurnManager turnManager;
+
+    void Start()
+    {
+        // Get the CameraFollow script attached to the main camera
+        cameraFollowScript = GetComponent<camerafollow>();
+        // Disable CameraFollow initially
+        cameraFollowScript.enabled = false;
+
+        // Disable MouseMovement scripts initially
+        if (mouseMovementScript1 != null)
+        {
+            mouseMovementScript1.enabled = false;
+        }
+
+        if (mouseMovementScript2 != null)
+        {
+            mouseMovementScript2.enabled = false;
+        }
+
+        // Disable TurnManager initially
+        if (turnManager != null)
+        {
+            turnManager.enabled = false;
+        }
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            StartCameraMovement();
+        }
+
+        if (isAnimating)
+        {
+            PerformCameraAnimation();
+        }
+    }
+
+    void StartCameraMovement()
+    {
+        isAnimating = true;
+
+        // Disable CameraFollow script during the animation
+        cameraFollowScript.enabled = false;
+
+        // Disable MouseMovement scripts during the animation
+        if (mouseMovementScript1 != null)
+        {
+            mouseMovementScript1.enabled = false;
+        }
+
+        if (mouseMovementScript2 != null)
+        {
+            mouseMovementScript2.enabled = false;
+        }
+
+        // Disable TurnManager script on another game object during the animation
+        if (turnManager != null)
+        {
+            turnManager.enabled = false;
+        }
+
+        Invoke("StartAnimation", delayBeforeAnimation);
+    }
+
+    void StartAnimation()
+    {
+        Vector3 targetPosition = new Vector3(targetX, targetY, targetZ);
+        Vector3 targetRotation = new Vector3(targetRotationX, targetRotationY, targetRotationZ);
+
+        LeanTween.move(gameObject, targetPosition, animationDuration).setEase(LeanTweenType.easeInOutQuad).setOnComplete(OnAnimationComplete);
+        LeanTween.rotate(gameObject, targetRotation, animationDuration).setEase(LeanTweenType.easeInOutQuad);
+    }
+
+    void PerformCameraAnimation()
+    {
+        // You can perform additional actions during the animation if needed
+        // For example, updating UI, triggering events, etc.
+    }
+
+    void OnAnimationComplete()
+    {
+        // Re-enable CameraFollow script after the animation is complete
+        cameraFollowScript.enabled = true;
+
+        // Enable MouseMovement scripts after the animation is complete
+        if (mouseMovementScript1 != null)
+        {
+            mouseMovementScript1.enabled = true;
+        }
+
+        if (mouseMovementScript2 != null)
+        {
+            mouseMovementScript2.enabled = true;
+        }
+
+        // Re-enable TurnManager script on another game object after the animation is complete
+        if (turnManager != null)
+        {
+            turnManager.enabled = true;
+        }
+
+        isAnimating = false;
+    }
+}
+
+
+
+
+

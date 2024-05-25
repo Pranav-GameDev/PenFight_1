@@ -1,0 +1,49 @@
+﻿using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody))]
+public class AIplayer : MonoBehaviour
+{
+    private Rigidbody rb;
+
+    // Reference to another player's MouseMovement script
+    public MouseMovement nextPlayerMouseMovement;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.useGravity = false; // Disable Unity's default gravity
+
+        // Disable this MouseMovement script at the start
+        enabled = false;
+    }
+
+    void Update()
+    {
+        // Check if the next player's MouseMovement script is enabled
+        if (nextPlayerMouseMovement != null && nextPlayerMouseMovement.enabled)
+        {
+            // Extract the mouseMagnitude value from the other player's script
+            float mouseMagnitude = nextPlayerMouseMovement.GetmouseMagnitude();
+
+            // Calculate the movement vector towards the other player
+            Vector3 movementDirection = (nextPlayerMouseMovement.transform.position - transform.position).normalized;
+
+            // Move the object with the same magnitude towards the other player
+            Vector3 movement = movementDirection * mouseMagnitude;
+            rb.AddForce(movement, ForceMode.Impulse);
+
+            // Disable this MouseMovement script
+            enabled = false;
+
+            // Enable the next player's MouseMovement script
+            nextPlayerMouseMovement.enabled = true;
+        }
+    }
+
+    // Public method to get the mouseMagnitude value
+    public float GetMouseMagnitude()
+    {
+        // Return the value you want to share with other players (e.g., mouseMagnitude)
+        return 0f; // You may need to replace this with the actual value you want to share
+    }
+}
