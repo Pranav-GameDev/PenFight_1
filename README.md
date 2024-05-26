@@ -1,4 +1,4 @@
-# 📚 Pen Fight Simulator
+![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/bc5944d6-5974-4305-a0dc-d5d1cd2f5986)# 📚 Pen Fight Simulator
 
 Welcome to **Pen Fight Simulator**, a thrilling tabletop game brought to life on your Windows PC! Experience the classic pen fight game in a digital format, crafted with precision and creativity. Dive into the strategic fun of pushing your opponent's pen out of the arena!
 
@@ -21,13 +21,23 @@ Pen Fight Simulator is a 2-player game where both players can play on the same p
 4. **Game Restart**: The game restarts after each round.
 5. **Winning**: The first player to reach 10 points wins!
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots & Video
+
+
+https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/96f78dba-2a5e-4b5c-8330-9d77cb2efb38
+----------------------------------- **Main Main Game (in Unity)** -----------------------------------
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/a7a8711d-4f66-4a61-bb6a-b93f09154ef5)
----------------- Main Game (in Unity) ---------------- 
+----------------------------------- **Main Game** -----------------------------------
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/d54ab50a-4507-4113-82cc-95ddb049e076)
-----------------Main Game---------------- 
+----------------------------------- **Main Menu** -----------------------------------
+
+![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/35bd38a5-d322-4d79-8a0a-9fdf49cff6c3)
+----------------------------------- **Map** -----------------------------------
+
+![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/cd90b5df-ac5e-4ccb-8a96-e045900ce573)
+----------------------------------- **UI Assets** -----------------------------------
 
 ## 💻 Development Details
 
