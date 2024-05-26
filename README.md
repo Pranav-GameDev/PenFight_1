@@ -21,6 +21,14 @@ Pen Fight Simulator is a 2-player game where both players can play on the same p
 4. **Game Restart**: The game restarts after each round.
 5. **Winning**: The first player to reach 10 points wins!
 
+## 🖼️ Screenshots
+
+![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/a7a8711d-4f66-4a61-bb6a-b93f09154ef5)
+----------------Main Game---------------- 
+
+![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/d54ab50a-4507-4113-82cc-95ddb049e076)
+----------------Main Game---------------- 
+
 ## 💻 Development Details
 
 - **3D Models**: Created using Blender.
