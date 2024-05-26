@@ -28,14 +28,14 @@ https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/96f78dba-2a5e-4b5c
 
 
 <p align="center">
-  <em>Main Game Video (in Unity)</em>
+  <strong>Main Game Video (in Unity)</strong>
 </p>
 
 
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/a7a8711d-4f66-4a61-bb6a-b93f09154ef5)
 <p align="center">
-  <em>Main Game</em>em>
+  <strong>Main Game</strong>
 </p>
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/d54ab50a-4507-4113-82cc-95ddb049e076)
