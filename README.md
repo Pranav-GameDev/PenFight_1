@@ -1,4 +1,4 @@
-![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/bc5944d6-5974-4305-a0dc-d5d1cd2f5986)# 📚 Pen Fight Simulator
+## 📚 Pen Fight Simulator
 
 Welcome to **Pen Fight Simulator**, a thrilling tabletop game brought to life on your Windows PC! Experience the classic pen fight game in a digital format, crafted with precision and creativity. Dive into the strategic fun of pushing your opponent's pen out of the arena!
 
