@@ -26,7 +26,7 @@ Pen Fight Simulator is a 2-player game where both players can play on the same p
 ## 🖼️ Screenshots & Video
 
 
-https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/96f78dba-2a5e-4b5c-8330-9d77cb2efb38
+https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/01a235ff-0019-4674-94cf-7a926da5f6ce
 
 
 <p align="center">
