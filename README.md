@@ -26,15 +26,17 @@ Pen Fight Simulator is a 2-player game where both players can play on the same p
 
 https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/96f78dba-2a5e-4b5c-8330-9d77cb2efb38
 
------------------------------------ **Main Main Game (in Unity)** -----------------------------------
+
 <p align="center">
-  Main Main Game (in Unity)
+  **Main Game Video (in Unity)**
 </p>
 
 
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/a7a8711d-4f66-4a61-bb6a-b93f09154ef5)
------------------------------------ **Main Game** -----------------------------------
+<p align="center">
+  **Main Game**
+</p>
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/d54ab50a-4507-4113-82cc-95ddb049e076)
 ----------------------------------- **Main Menu** -----------------------------------
