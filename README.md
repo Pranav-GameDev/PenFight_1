@@ -31,21 +31,25 @@ https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/96f78dba-2a5e-4b5c
   <strong>Main Game Video (in Unity)</strong>
 </p>
 
-
-
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/a7a8711d-4f66-4a61-bb6a-b93f09154ef5)
 <p align="center">
   <strong>Main Game</strong>
 </p>
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/d54ab50a-4507-4113-82cc-95ddb049e076)
------------------------------------ **Main Menu** -----------------------------------
+<p align="center">
+  <strong>Main Menu</strong>
+</p>
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/35bd38a5-d322-4d79-8a0a-9fdf49cff6c3)
------------------------------------ **Map** -----------------------------------
+<p align="center">
+  <strong>Map</strong>
+</p>
 
 ![image](https://github.com/Pranav-GameDev/PenFight_1/assets/144320108/cd90b5df-ac5e-4ccb-8a96-e045900ce573)
------------------------------------ **UI Assets** -----------------------------------
+<p align="center">
+  <strong>UI Assets</strong>
+</p>
 
 ## 💻 Development Details
 
